@@ -11,7 +11,8 @@ function closeModal(){
     modalMask.style.visibility = "hidden";
 }
 
-/*
-pegar as fotos da api
-criar efeito carroussel
-*/
+
+function scrollToAboutSection() {
+    const aboutSection = document.querySelector('.about-section');
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+}
