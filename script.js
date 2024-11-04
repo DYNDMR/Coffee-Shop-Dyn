@@ -10,3 +10,8 @@ function closeModal(){
     modal.style.left = "-30%";
     modalMask.style.visibility = "hidden";
 }
+
+/*
+pegar as fotos da api
+criar efeito carroussel
+*/

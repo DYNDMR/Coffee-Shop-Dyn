@@ -106,6 +106,7 @@ section, main {
 
 .content-box div{
     max-width: 60rem;
+    margin: 10vh 0;
 }
 
 .content-box div h3{

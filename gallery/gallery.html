@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <main>
+        <div class="video-box">
+            <video src="../video/coffee.mp4" loop muted autoplay></video>
+            <div class="mask"></div>
+        </div>
+       
+        <h2 class="hidden-titles">Photo Gallery</h2>
+        <div class="container">
+            <header class="header">
+                <section>
+                    <h1 class="hidden">Header</h1>
+                    <a href="#"><img src="../img/logoCoffee.png" alt="Coffee shop logo" aria-hidden="true"></a>
+        
+                    <nav class="main-nav">
+                        <h1 class="hidden">Navbar</h1>
+                        <a href="../index.html">Home</a>
+                    </nav>
+                </section>
+            </header>
+            <h3><span>Gall</span>ery</h3>
+            <section class="photos-container">
+                <h3 class="hidden-titles">carroussel</h3>
+                <button class="left-arrow control" aria-label="Previous image">◀</button>
+                <button class="right-arrow control" aria-label="Next image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img class="item current-item" src="./gallery/coWork1.jpeg" alt="Counter with chairs">
+                        <img class="item" src="./gallery/coWork2.webp" alt="Counter with individual tables">
+                        <img class="item" src="./gallery/coWork3.jpg" alt="Long tables for working together">
+                        <img class="item" src="./gallery/coWork4.webp"
+                            alt="Tables in a comfortable and pleasant environment">
+                        <img class="item" src="./gallery/coWork5.jpg"
+                            alt="Man writing in a notebook while drinking coffee">
+                        <img class="item" src="./gallery/coWork6.jpg" alt="A glass structure inside a coffee shop">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="gallery.js"></script>
+
+</html>
