@@ -28,8 +28,8 @@
             <nav class="main-nav">
                 <h1 class="hidden">Navbar</h1>
                 <a href="#">Home</a>
-                <a href="#" onclick="scrollToAboutSection()">About</a>
-                <a href="#" onclick="showModal()">Address</a>
+                <a onclick="scrollToAboutSection()">About</a>
+                <a onclick="showModal()">Address</a>
                 <a href="./gallery/gallery.html">Gallery</a>
             </nav>
         </section>
@@ -65,7 +65,7 @@
                     Indulge in the warmth of our inviting atmosphere, where every sip tells a story of passion and
                     dedication to the art of coffee.
                 </p>
-                <a class="button-link" href="#">Learn more</a>
+                <a class="button-link" onclick="showModalAboutUs()">Learn more</a>
             </div>
         </div>
     </section>
@@ -77,6 +77,50 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="modal-mask" onclick="closeModal()"></div>
+
+    <div class="container-about-us">
+        <section class="modal-about-us">
+            <button class="close-button" onclick="closeModal()">X</button>
+            <h3>What Makes Our Coffee Special</h3>
+
+            <br>
+            Our coffee is a journey of dedication and passion that starts long before the beans ever reach your cup.
+            We
+            work with sustainable farms around the world to source the highest quality beans, prioritizing
+            eco-friendly
+            practices that respect the land and the farmers who cultivate it. Each bean is hand-selected to ensure
+            that
+            only the finest make it to our roasting process. We believe that coffee is not just a drink but an
+            experience, a blend of rich flavors and aromatic notes that awaken the senses and warm the soul.
+            </p>
+            <br />
+            <p>
+                Once the beans arrive, our expert roasters carefully control every step of the roasting process,
+                adjusting
+                the heat and timing to bring out the best in each unique blend. This attention to detail results in a
+                cup of
+                coffee that’s as consistent as it is memorable. We take pride in creating drinks that suit every
+                preference.
+                For those who love boldness, our espressos are a shot of intense flavor, rich and full-bodied. If you’re
+                after something smoother, our lattes and cappuccinos offer a creamy, perfectly balanced experience with
+                the
+                richness of steamed milk blending seamlessly with our signature espresso.
+            </p>
+            <br />
+            <p>
+                But the quality of our coffee is only part of what we offer. Our café provides an inviting, cozy
+                atmosphere
+                where every detail has been crafted to make you feel at home. Soft lighting, comfortable seating, and a
+                welcoming vibe make it a perfect spot not only to enjoy a great coffee but also to relax, work, or
+                connect
+                with friends. We believe that every sip you take is part of a larger story—a story that celebrates both
+                the
+                art of coffee-making and the simple pleasures of life.</p>
+
+        </section>
+        <div class="modal-mask" onclick="closeModal()"></div>
+    </div>
 </body>
 <script src="script.js"></script>
+
 </html>
